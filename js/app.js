@@ -1,4 +1,4 @@
-let total = 0;
+let valorTotal = 0;
 limpar();
 
 function adicionar() {
@@ -24,7 +24,7 @@ function adicionar() {
 }
 
 function limpar() {
-    total = 0;
+    valorTotal = 0;
     document.getElementById('lista-produtos').innerHTML = '';
     document.getElementById('valor-total').innerHTML = '';  
 }
